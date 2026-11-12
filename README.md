@@ -13,8 +13,6 @@ This repository contains the R code used to construct Jaccard co-occurrence netw
 |------|---------|
 | `jaccard_network_community_detection_icpc.R` |  Loads packages and data, derives patient-year denominators, and builds the binary patient × ICPC-code matrices per age group, builds the Jaccard co-occurrence network, runs Louvain community detection, computes diagnostics, and exports node/edge/coordinate tables. |
 
-Run the two scripts **in the order above** (`00_preamble_…` first). The second script expects the `icpc_matrix_18_25 … icpc_matrix_46_55` objects created by the first.
-
 ## Method summary
 
 For each age group:
