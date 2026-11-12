@@ -160,16 +160,6 @@ testthat::expect_equal(nrow(icpc_matrix_46_55), n_distinct(filter(icpc_binary_df
 #   (resolution 1.5) -> node/edge/coordinate output
 # =============================================================================
 
-# --- Libraries (not shown in the screenshots — verify/complete) --------------
-library(tidyverse)   # dplyr, purrr, stringr, tidyr, tibble, ggplot2
-library(vegan)       # vegdist()  — Jaccard distances
-library(igraph)      # graph_from_adjacency_matrix, cluster_louvain, modularity
-library(tidygraph)   # as_tbl_graph, activate
-library(ggraph)      # ggraph, geom_edge_*, geom_node_*, facet_nodes, create_layout, theme_graph
-library(ggforce)     # geom_mark_hull
-library(viridis)     # viridis discrete scales
-library(writexl)     # write_xlsx
-
 # =============================================================================
 # I. ICPC CODES CLUSTERS
 # =============================================================================
