@@ -1,13 +1,10 @@
-# jaccard-network-based-community-detection
-Reusable R pipeline for Jaccard co-occurrence networks and Louvain community detection of clinical codes (e.g. ICPC, ATC), stratified by subgroup.
-
 # Jaccard network-based community detection of GP-registered morbidity
 
 Analysis code accompanying the manuscript on the **clinical burden among women in Dutch general-practice (GP) care across the life course**.
 
 This repository contains the R code used to construct Jaccard co-occurrence networks of ICPC diagnosis codes and to detect communities (clusters) of frequently co-occurring codes, separately for each age group, using the Louvain algorithm. It also contains the downstream code that exports node, edge and layout tables so the network figures can be reproduced outside the secure analysis environment.
 
-> **Manuscript:** *[W.E. Berends-Hoekstra, S. Weiland, J.J. Hamstra,I.E. Sommer, T.C. Olde Hartman, J.W.M. Muris, H.M.M. Vos, A. de Jonge, M.H. Blanker, L.L. Peters. More Than the Sum of its Parts: A Dutch Population-Based Study of Women’s Clinical Burden Across the Life Course and Sociodemographic Background, [journal - in preparation], year [in preparation]*
+> **Manuscript:** *W.E. Berends-Hoekstra, S. Weiland, J.J. Hamstra,I.E. Sommer, T.C. Olde Hartman, J.W.M. Muris, H.M.M. Vos, A. de Jonge, M.H. Blanker, L.L. Peters. More Than the Sum of its Parts: A Dutch Population-Based Study of Women’s Clinical Burden Across the Life Course and Sociodemographic Background, [journal - in preparation], [year - in preparation]*
 > **Correspondence:** W.E. Berends-Hoekstra (WEB)
 
 ## Repository contents
